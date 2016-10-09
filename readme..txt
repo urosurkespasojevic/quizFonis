@@ -1,0 +1,5 @@
+-checkig the status: git status
+-adding new files: git add .
+-commiting: git commit -m "<description>"
+-push request: git push origin -u master
+-pull request: git pull
