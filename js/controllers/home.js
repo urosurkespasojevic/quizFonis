@@ -9,10 +9,12 @@ angular.module('app.home', [])
     
 
     $localStorage.user = {
-        firstName: "",
-        lastName: "",
+        first_name: "",
+        last_name: "",
         email: "",
-        correctAnswers: 0,
+        phone_number:"",
+        year_of_study:"",
+        birth_date:"",
         answers: []
     };
     $scope.firstName = '';
